@@ -32,24 +32,42 @@ This library was originally created for the Android application [Lunar Locator](
 
 ## Installation
 
-### GitHub Packages
+### Maven Central (Recommended)
 
 Add the following to your `build.gradle.kts`:
 
 ```kotlin
 repositories {
-    maven {
-        name = "GitHubPackages"
-        url = uri("https://maven.pkg.github.com/dgrims3/MoonLocatorLibrary")
-        credentials {
-            username = project.findProperty("gpr.user") as String? ?: System.getenv("GITHUB_ACTOR")
-            password = project.findProperty("gpr.token") as String? ?: System.getenv("GITHUB_TOKEN")
-        }
-    }
+    mavenCentral()
 }
 
 dependencies {
     implementation("io.github.dgrims3:moon-library:1.0.0")
+}
+```
+
+Or for Maven, add to your `pom.xml`:
+
+```xml
+<dependency>
+    <groupId>io.github.dgrims3</groupId>
+    <artifactId>moon-library</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
+### JitPack
+
+Alternatively, you can use JitPack:
+
+```kotlin
+repositories {
+    mavenCentral()
+    maven { url = uri("https://jitpack.io") }
+}
+
+dependencies {
+    implementation("com.github.dgrims3:MoonLocatorLibrary:v1.0.0")
 }
 ```
 
