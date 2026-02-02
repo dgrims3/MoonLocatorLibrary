@@ -1,6 +1,6 @@
 # MoonLocator
 
-A high-precision Java library for calculating lunar positions, phases, rise/set times, and other moon-related astronomical data. Built on proven astronomical algorithms from NREL and Jean Meeus.
+A high-precision Java library for calculating lunar positions, phases, rise/set times, and other moon-related astronomical data. Built on astronomical algorithms from NREL and Jean Meeus.
 
 ## Origin
 
