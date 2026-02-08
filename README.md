@@ -236,7 +236,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-**David Grimes** ([@dgrims3](https://github.com/dgrims3))
+**David Grimsley** ([@dgrims3](https://github.com/dgrims3))
 
 ## Contributing
 
